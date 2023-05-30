@@ -238,8 +238,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   scatteringTint:
-    m_OverrideState: 0
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
   powderEffectIntensity:
     m_OverrideState: 0
     m_Value: 0.25
@@ -256,8 +256,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 2.5
   shapeOffset:
-    m_OverrideState: 0
-    m_Value: {x: 0.35, y: 0, z: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0.82, y: 0.34, z: 0}
   erosionFactor:
     m_OverrideState: 0
     m_Value: 0.5
