@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Value: 1
   localClouds:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   earthCurvature:
     m_OverrideState: 0
     m_Value: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
     m_Value: 2.5
   shapeOffset:
     m_OverrideState: 1
-    m_Value: {x: 0.82, y: 0.34, z: 0}
+    m_Value: {x: 0.86, y: 0.82, z: 0}
   erosionFactor:
     m_OverrideState: 0
     m_Value: 0.5
@@ -272,7 +272,7 @@ MonoBehaviour:
     m_Value: 1
   sunLightDimmer:
     m_OverrideState: 1
-    m_Value: 0.512
+    m_Value: 1
   erosionOcclusion:
     m_OverrideState: 0
     m_Value: 0.1
