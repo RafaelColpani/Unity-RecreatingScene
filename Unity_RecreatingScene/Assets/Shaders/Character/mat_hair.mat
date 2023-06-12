@@ -7,34 +7,47 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_shd_hair
+  m_Name: mat_hair
   m_Shader: {fileID: -6465566751694194690, guid: 80737248bb32be2458556e9e0bacddf4, type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _ALPHATOMASK_ON
+  - _CONSERVATIVE_DEPTH_OFFSET
+  - _DEPTHOFFSET_ON
   - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
+  - _TRANSPARENT_WRITES_MOTION_VEC
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2750
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
   disabledShaderPasses:
-  - TransparentDepthPrepass
+  - MOTIONVECTORS
   - TransparentDepthPostpass
   - TransparentBackface
-  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_761498f2cd0048be8f2d7f4fbc18d8ef_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6d92863eb62b8db4da8e15ffa44a71a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bfa76d8110f747db9ec9d75ae5ea8951_Texture_1:
         m_Texture: {fileID: 2800000, guid: 6d92863eb62b8db4da8e15ffa44a71a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_dafba880914c4890b6682233b9f330b1_Texture_1:
         m_Texture: {fileID: 2800000, guid: 468d3f269ebd2d74a90c5a414cd50a9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_hair_Card:
+        m_Texture: {fileID: 2800000, guid: 6d92863eb62b8db4da8e15ffa44a71a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -53,28 +66,36 @@ Material:
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1.58
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _AlphaToMask: 0
-    - _AlphaToMaskInspectorValue: 0
+    - _AlphaToMask: 1
+    - _AlphaToMaskInspectorValue: 1
     - _BlendMode: 0
-    - _ConservativeDepthOffsetEnable: 0
-    - _CullMode: 2
-    - _CullModeForward: 2
-    - _DepthOffsetEnable: 0
-    - _DoubleSidedEnable: 0
+    - _ConservativeDepthOffsetEnable: 1
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 1
+    - _DepthOffset_Int: 0.001
+    - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Float: 0
+    - _Float: 1.44
+    - _Float_1: 0.71
+    - _Main_Alpha: 1
     - _OpaqueCullMode: 2
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
-    - _RenderQueueType: 4
+    - _RenderQueueType: 3
     - _RequireSplitLighting: 0
+    - _Rim: 0.1
+    - _Second_Smoothness: 0.59
+    - _Second_Specular: 2.1
+    - _Smoothness: 0.44
+    - _Specular_Shift: 1.14
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -88,21 +109,40 @@ Material:
     - _StencilWriteMaskMV: 42
     - _SupportDecals: 1
     - _SurfaceType: 1
+    - _Tess_Int: 1.98
+    - _TessellationBackFaceCullEpsilon: -0.25
+    - _TessellationFactorMaxDistance: 50
+    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorTriangleSize: 100
+    - _TessellationMaxDisplacement: 0.01
+    - _TessellationMode: 0
+    - _TessellationShapeFactor: 0.75
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
-    - _TransparentDepthPrepassEnable: 0
+    - _TransparentDepthPrepassEnable: 1
     - _TransparentSortPriority: 0
-    - _TransparentWritingMotionVec: 0
+    - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 0
-    - _UseShadowThreshold: 0
+    - _UseShadowThreshold: 1
     - _ZTestDepthEqualForOpaque: 4
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _Color: {r: 0, g: 0.35622227, b: 0.9528302, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 0.3207547, g: 0.10439658, b: 0.10439658, a: 1}
+    - _Second_Dir_Group: {r: 1, g: 1, b: 0, a: 0}
+    - _Second_Specular_Color: {r: 0.4433962, g: 0.4162068, b: 0.4162068, a: 0}
+    - _Specular_Color: {r: 0.4811321, g: 0.41985583, b: 0.45432374, a: 0}
+    - _Strand_Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _Tess_Controll: {r: 0, g: 0, b: 0, a: 0}
+    - _UV_Hair_Card: {r: 1, g: 1, b: 1, a: 0}
+    - _Vector2: {r: 3.44, g: 0.44, b: 0, a: 0}
+    - _Vector2_1: {r: 0.91, g: 2.62, b: 0, a: 0}
+    - _Vector3: {r: 0, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1414668815025982622
 MonoBehaviour:

@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-98532689058895901
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 12
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_cloth
+  m_Name: mat_shoes
   m_Shader: {fileID: -6465566751694194690, guid: 6bc5f28c143a67c49be4dfe955613419, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 1
-  m_EnableInstancingVariants: 1
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
   stringTagMap:
@@ -43,35 +27,23 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Tex_AO:
-        m_Texture: {fileID: 2800000, guid: a085db3f90f9edf4bb05d238c7edf428, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74a6163d5c7830646ae7bd1102ebe5bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Normal:
-        m_Texture: {fileID: 2800000, guid: e8a6a46ee1ad3b3419f113c9a3fbeda8, type: 3}
+        m_Texture: {fileID: 2800000, guid: c17dcf89ed7bf5e40b8d168531973fbb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Second:
-        m_Texture: {fileID: 2800000, guid: af24c542434a025448222d576f61a956, type: 3}
-        m_Scale: {x: 1.69, y: 1.86}
+        m_Texture: {fileID: 2800000, guid: 239faeb2e948d174a84cacb0eddde5a8, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Smoothness:
-        m_Texture: {fileID: 2800000, guid: 689a65bcbfe9af04898b6fa15ee30ebc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4730cd3aab3e5d8449c2e1dad3006df8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Thread:
-        m_Texture: {fileID: 2800000, guid: 0f8d61abc7cd4074caeca5e9e3c960e6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: cf3fbf98d5c3f1941bd9c0256918a4c8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_84e2cdbe51634e4ab742739ce5dfbeb0_Out_0:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Thread_Tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 239faeb2e948d174a84cacb0eddde5a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -88,7 +60,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Strength: 0.38
+    - _AO_Strength: 0.5
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
@@ -107,7 +79,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _Normal_Int: 12
-    - _Normal_Strength: 0.67
+    - _Normal_Strength: 0.5
     - _OnSecondTex: 1
     - _OnThread: 1
     - _OpaqueCullMode: 2
@@ -115,7 +87,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness_Strength: 1.34
+    - _Smoothness_Strength: 0.5
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -155,3 +127,19 @@ Material:
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _UV_Tess: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &4010400155451680345
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
