@@ -42,6 +42,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_347ddd3f802c4acca1ad1950918a2ba1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e8a6a46ee1ad3b3419f113c9a3fbeda8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6626b90502494b16b23a8777d91db1c6_Texture_1:
         m_Texture: {fileID: 2800000, guid: 239faeb2e948d174a84cacb0eddde5a8, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -52,6 +56,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_79d4bf6ab5f04dbe8d6919dab7e00f55_Texture_1:
         m_Texture: {fileID: 2800000, guid: 74a6163d5c7830646ae7bd1102ebe5bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_85f20c7112b545dca6e9ed4ef8ea5ad8_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 689a65bcbfe9af04898b6fa15ee30ebc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_ba277494e2ec4568892afc8d4bcae8ca_Out_0:
+        m_Texture: {fileID: 2800000, guid: 0f8d61abc7cd4074caeca5e9e3c960e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThreadMapDetail_8b8bad4e735b4f879bbeba6b7a01b2e2_ThreadMap_1088529584:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Thread_Tex:
+        m_Texture: {fileID: 2800000, guid: 0f8d61abc7cd4074caeca5e9e3c960e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -86,6 +106,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _Float: 0.11
+    - _OnThread: 1
     - _OpaqueCullMode: 2
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -104,6 +125,14 @@ Material:
     - _StencilWriteMaskMV: 42
     - _SupportDecals: 1
     - _SurfaceType: 0
+    - _Tess_Range: 2.7
+    - _TessellationBackFaceCullEpsilon: -0.25
+    - _TessellationFactorMaxDistance: 50
+    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorTriangleSize: 100
+    - _TessellationMaxDisplacement: 0.01
+    - _TessellationMode: 0
+    - _TessellationShapeFactor: 0.75
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -119,4 +148,7 @@ Material:
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 0.7688679, b: 0.7688679, a: 0}
+    - _UV_Tess: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector3: {r: 4.56, g: -0.93, b: 0, a: 0}
   m_BuildTextureStacks: []
