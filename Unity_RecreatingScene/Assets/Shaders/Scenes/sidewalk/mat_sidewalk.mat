@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_street
-  m_Shader: {fileID: -6465566751694194690, guid: 442dce7afe9c7b54e8e822ab339d0eb8, type: 3}
+  m_Name: mat_sidewalk
+  m_Shader: {fileID: -6465566751694194690, guid: 75c51d1dd02665b4187477b67667aa33, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 1
-  m_EnableInstancingVariants: 1
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
   stringTagMap:
@@ -27,24 +27,24 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2DLOD_abe645cbb6844f009e3eb67e3ae70d79_Texture_1:
-        m_Texture: {fileID: 2800000, guid: c6c4edeefce65104b8e8ae8ae05d850d, type: 3}
+    - _Color_Tex:
+        m_Texture: {fileID: 2800000, guid: dc73435db9ad5cf43b65162719b02df2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_27f52435bd7f4274a9a5fa7cc0fac6fe_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 33fba8b245486ff46b58b1b019a870a7, type: 3}
+    - _SampleTexture2D_392fcb0539c0426ea4084f45d35a1198_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c3fc5b3d490ac8a43a07ee5480387dda, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_46dc428f2a564ab29efc291f80bac6fe_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 6e3dc50be8d149b4c9f8bda38b44a885, type: 3}
+    - _SampleTexture2D_6f9c70562a834aa9ab7b0f64e9db0455_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b61b3f98d552cf14e83c9766b616627d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_5781a3d11d574f98a99ec7c45469a535_Texture_1:
-        m_Texture: {fileID: 2800000, guid: dfc16ae913a692c48b81178b5e2ed0c8, type: 3}
+    - _SampleTexture2D_af0ac0ae27f048cd921f52e8e049a749_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9fa99762173e19a45b90551a8e1175b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_88f08a98f8424f6faf135f290bafceee_Texture_1:
-        m_Texture: {fileID: 2800000, guid: c50eced1ab38db446ab16bb3793c27b3, type: 3}
+    - _Tess_Tex:
+        m_Texture: {fileID: 2800000, guid: c3fc5b3d490ac8a43a07ee5480387dda, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -78,7 +78,7 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Metallic_Power: 0.579
+    - _Metallic_Power: 0.828
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -86,7 +86,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness_Power: 0.84
+    - _Smoothness_Power: 0.419
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -100,12 +100,12 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _Tess_Fact: 0.88
+    - _Tess_Power: 21.05
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactorMaxDistance: 50
     - _TessellationFactorMinDistance: 20
     - _TessellationFactorTriangleSize: 100
-    - _TessellationMaxDisplacement: 0.19
+    - _TessellationMaxDisplacement: 0.01
     - _TessellationMode: 0
     - _TessellationShapeFactor: 0.75
     - _TransparentBackfaceEnable: 0
@@ -121,15 +121,14 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.8584906, g: 0.6048395, b: 0.40899786, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 0.8962264, g: 0.54972523, b: 0.46079564, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 0.35, g: 0.35, b: 0, a: 0}
-    - _Vector2: {r: 9.29, g: 10.15, b: 0, a: 0}
-    - _Vector2_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _UV_Tess: {r: 0.04, g: 0.04, b: 0.04, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4659987811215073781
+--- !u!114 &8774209788344682758
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
