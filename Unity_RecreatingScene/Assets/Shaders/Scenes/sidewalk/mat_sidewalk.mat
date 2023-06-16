@@ -123,7 +123,7 @@ Material:
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Color: {r: 0.8962264, g: 0.54972523, b: 0.46079564, a: 0}
+    - _Main_Color: {r: 0.7075472, g: 0.56571907, b: 0.5306604, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _UV_Tess: {r: 0.04, g: 0.04, b: 0.04, a: 0}

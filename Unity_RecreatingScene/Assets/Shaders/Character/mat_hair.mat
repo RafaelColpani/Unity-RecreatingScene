@@ -91,7 +91,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RenderQueueType: 3
     - _RequireSplitLighting: 0
-    - _Rim: 0.1
+    - _Rim: 0.001
     - _Second_Smoothness: 0.59
     - _Second_Specular: 2.1
     - _Smoothness: 0.44
