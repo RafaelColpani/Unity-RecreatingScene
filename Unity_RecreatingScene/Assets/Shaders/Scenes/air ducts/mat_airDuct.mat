@@ -48,15 +48,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _color_map:
-        m_Texture: {fileID: 2800000, guid: 6f0b508b2453d6343a2a499ec78ed9db, type: 3}
+        m_Texture: {fileID: 2800000, guid: a47101c1cd4964049ac330933acf565b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _metalness_map:
-        m_Texture: {fileID: 2800000, guid: b9eec78ed6a83ad4ea8503053c9eab70, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0349bab07293ec3419d3df2caa1fa0a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _normal_map_opengl:
-        m_Texture: {fileID: 2800000, guid: fd629c9eb5cbf6c4f8af73af18903dce, type: 3}
+        m_Texture: {fileID: 2800000, guid: cb6b39a66db141f47b2c07e5325b8445, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _roughness_map:
