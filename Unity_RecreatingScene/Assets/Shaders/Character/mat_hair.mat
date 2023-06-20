@@ -91,11 +91,11 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RenderQueueType: 3
     - _RequireSplitLighting: 0
-    - _Rim: 0.001
-    - _Second_Smoothness: 0.59
-    - _Second_Specular: 2.1
-    - _Smoothness: 0.44
-    - _Specular_Shift: 1.14
+    - _Rim: 0.07
+    - _Second_Smoothness: 0.3
+    - _Second_Specular: -0.5
+    - _Smoothness: 2.19
+    - _Specular_Shift: 0.32
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -109,7 +109,7 @@ Material:
     - _StencilWriteMaskMV: 42
     - _SupportDecals: 1
     - _SurfaceType: 1
-    - _Tess_Int: 1.98
+    - _Tess_Int: 2.74
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactorMaxDistance: 50
     - _TessellationFactorMinDistance: 20
@@ -133,11 +133,11 @@ Material:
     - _Color: {r: 0, g: 0.35622227, b: 0.9528302, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Color: {r: 0.3207547, g: 0.10439658, b: 0.10439658, a: 1}
+    - _Main_Color: {r: 0.5529412, g: 0.40784314, b: 0.24313726, a: 1}
     - _Second_Dir_Group: {r: 1, g: 1, b: 0, a: 0}
-    - _Second_Specular_Color: {r: 0.4433962, g: 0.4162068, b: 0.4162068, a: 0}
-    - _Specular_Color: {r: 0.4811321, g: 0.41985583, b: 0.45432374, a: 0}
-    - _Strand_Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _Second_Specular_Color: {r: 0.3207547, g: 0.29251215, b: 0.25267, a: 0}
+    - _Specular_Color: {r: 1, g: 0.78039217, b: 0.47058824, a: 0}
+    - _Strand_Direction: {r: 0, g: 0.5, b: 0, a: 0}
     - _Tess_Controll: {r: 0, g: 0, b: 0, a: 0}
     - _UV_Hair_Card: {r: 1, g: 1, b: 1, a: 0}
     - _Vector2: {r: 3.44, g: 0.44, b: 0, a: 0}
